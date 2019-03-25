@@ -10,6 +10,8 @@ class DemoController extends Controller
 
         $data = $this->model->demo();
 
+        $this->view->setLayout('demo');
+
         $this->view->render("Demo",[
             'h1' => "You on demo page",
             'p' => "This page was created to demonstrate the work of the framework!",

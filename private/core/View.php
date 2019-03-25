@@ -25,6 +25,11 @@ class View
         }
     }
 
+    public function setLayout($layout)
+    {
+        $this->layout = $layout;
+    }
+
     public function json($array) {
         exit(json_encode($array));
     }

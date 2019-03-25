@@ -13,7 +13,7 @@ abstract class Controller
         $this->get = $_GET;
         $this->params = $params;
         $this->view = new View($this->params);
-        $this->model = $this->loadModel($this->params['controller'].'Model'); // preload existed model
+        $this->model = $this->loadModel($this->params['controller'].'Model'); // Personal class model | startup if it exists
     }
 
     public function loadModel($name) {
