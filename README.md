@@ -1,7 +1,7 @@
 # Rhombus-Framework
 "rhombus-framework" it's PHP framework built on the basis of the pattern 'MVC'
 
-[![GitHub license](https://img.shields.io/github/license/jfoenixadmin/JFoenix.svg)](https://github.com/mrdenysu/rhombus-framework/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mrdenysu/rhombus-framework.svg)](https://github.com/mrdenysu/rhombus-framework/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/mrdenysu/rhombus-framework.svg?branch=master)](https://travis-ci.org/mrdenysu/rhombus-framework)
 
 Rhombus-Framework - implementation of the MVC pattern in PHP using OOP.
