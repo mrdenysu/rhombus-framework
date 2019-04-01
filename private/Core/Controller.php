@@ -17,7 +17,7 @@ abstract class Controller
     }
 
     public function loadModel($name) {
-        $path = 'RhombusFramework\models\\'.ucfirst($name);
+        $path = 'RhombusFramework\Models\\'.ucfirst($name);
         if (class_exists($path)) {
             return new $path;
         }

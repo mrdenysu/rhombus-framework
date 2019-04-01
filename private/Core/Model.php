@@ -6,7 +6,7 @@ namespace RhombusFramework\Core;
 
 abstract class Model
 {
-    public $db;
+    //public $db;
 
     public function __construct() {
         //$this->db = new DB();

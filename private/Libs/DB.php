@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mrden
- * Date: 25.03.2019
- * Time: 17:34
- */
 
 namespace RhombusFramework\Libs;
 
