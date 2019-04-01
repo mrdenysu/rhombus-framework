@@ -30,6 +30,11 @@ For convenience in the project as an example the group of the controller 'Demo' 
  - Write instructions for manual, automatic and semi-automatic installation of framework
  - Develop an automated installation on the server with database and system files configuration
 
+### News
+
+ - Fixed a bug with linux-like systems
+ - It is recommended to check apache2 settings before installing on VDS/VPS. Support must work for the system to work .htaccess
+
 License
 ----
 
