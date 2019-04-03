@@ -9,9 +9,10 @@ Rhombus-Framework - implementation of the MVC pattern in PHP using OOP.
 
 All libraries, plugins and modules are connected to the abstract, parent Model class 'Model' by the path 'private/core/Model.php'. The following is a list of preinstalled components.
 
-| Name | Status | README |
+| Name | Status | README or Brief description|
 | ------ | ------ | ------ |
-| DataBase | Integrated | Not created |
+| DataBase | Integrated & Works | Not created, works on top of PDO |
+| VKSimpleAPI | In the test | Not created |
 
 #### Installation
 Download the latest build or copy the repository:
