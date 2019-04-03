@@ -8,7 +8,7 @@ class DB {
     protected $db;
 
     public function __construct() {
-        $config = require 'private/settings/db.php';
+        $config = require 'application/settings/db.php';
         $this->db = new PDO('mysql:host='.$config['host'].';dbname='.$config['name'].'', $config['user'], $config['password']);
     }
 

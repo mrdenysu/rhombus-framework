@@ -9,7 +9,7 @@ class Router
     public function __construct()
     {
         session_start();
-        $routes_settings_file = 'private/settings/routes.php';
+        $routes_settings_file = 'application/settings/routes.php';
         if (file_exists($routes_settings_file)) {
             $routes = require ($routes_settings_file);
             foreach ($routes as $key => $val) {
